@@ -1,6 +1,32 @@
 // Your code here
 
+class Calculator{
+	total = 0;
 
+	add(num){
+		return this.total += num;
+	}
+	subtract(num){
+		return this.total -= num;
+	}
+	multiply(num){
+		return this.total *= num;
+	}
+	divide(num){
+		if (num === 0 ) {
+			console.log("can't divide by 0");
+			return this;
+		}
+		return this.total /= num;
+	}
+}
+
+let calculator = new Calculator();
+console.log(calculator.add(50));
+console.log(calculator.subtract(35));
+console.log(calculator.multiply(10)); // => 150
+console.log(calculator.divide(5));    // => 30
+console.log(calculator.total)   
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
 
