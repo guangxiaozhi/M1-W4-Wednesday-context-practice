@@ -1,7 +1,7 @@
 function bindToAnArg(func, arg) {
 
-  return func.bind(null, arg);
-  // return func.bind(bindToAnArg, arg);
+  // return func.bind(null, arg);
+  return func.bind(bindToAnArg, arg);
 
 }
 
