@@ -21,12 +21,12 @@ class Calculator{
 	}
 }
 
-let calculator = new Calculator();
-console.log(calculator.add(50));
-console.log(calculator.subtract(35));
-console.log(calculator.multiply(10)); // => 150
-console.log(calculator.divide(5));    // => 30
-console.log(calculator.total)   
+// let calculator = new Calculator();
+// console.log(calculator.add(50));
+// console.log(calculator.subtract(35));
+// console.log(calculator.multiply(10)); // => 150
+// console.log(calculator.divide(5));    // => 30
+// console.log(calculator.total)   
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
 
